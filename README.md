@@ -9,7 +9,7 @@ Anupam - dasanupam104@gmail.com\
 Christopher Lee - c.lee8912@icloud.com \
 Dawn Lin - tan.lin.dawn@gmail.com, Site: lindawn.github.io\
 Elmon Toraman elmontoraman@gmail.com\
-Shahzeb Rizvi  shahzebrizvi16@gmail.com\
+Shahzeb Rizvi  shahzebrizvi16@gmail.com
 
 ## Overview
 Problem statement: There exists no usable, open dataset on fire incidents in NYC.
