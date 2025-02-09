@@ -33,5 +33,5 @@ Layer with other data points:
 -Demographics
 -Building codes
 
-![alt text](screenshot.png "Kepler.gl map")
+![alt text](../visualizations/screenshot.png "Kepler.gl map")
 
