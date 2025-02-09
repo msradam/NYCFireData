@@ -7,7 +7,7 @@ map_1 = KeplerGl()
 map_1
 
 # DataFrame
-df = pd.read_csv('bbl_lat_long_date.csv')
+df = pd.read_csv('csv-data/bbl_lat_long_date.csv')
 map_1.add_data(data=df, name='data_1')
 
 # # CSV
