@@ -1,7 +1,8 @@
 # HeatTweets: Fighting Fire with a Flood of Data
-This repository contains the code and data for the first open data set of fire incidents in NYC, developed during NYC's Open Data Week Hackathon "Can Data Start a Movement?" at Queens College, NYC.
+This repository contains the code and data for the first open data set of fire incidents in NYC.
+Developed during NYC's Open Data Week Hackathon "Can Data Start a Movement?" at Queens College, NYC, March 2020.
 
-Participants:
+Participants:\
 Alessandro Magnasco - alessandromagnasco@gmail.com, @alemagnasco\
 Alyssa Goldberg - alyssa@alyssagoldberg.com, @wiremonkey\
 Adam Munawar Rahman - msrahmanadam@gmail.com, @seriffic\
