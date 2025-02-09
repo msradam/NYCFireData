@@ -13,11 +13,12 @@ Shahzeb Rizvi  shahzebrizvi16@gmail.com
 
 ## Overview
 Problem statement: There exists no usable, open dataset on fire incidents in NYC.
+
 Why it matters:
--Housing is an official public health crisis in New York!
--Preventable injuries and deaths
--Displacement of families
--Environment & property damage
+- Housing is an official public health crisis in New York!
+- Preventable injuries and deaths
+- Displacement of families
+- Environment & property damage
 
 We need an open-source, accessible dataset to enable visualization and analysis to inform better preventative decision-making.
 
