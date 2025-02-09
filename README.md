@@ -29,11 +29,11 @@ _Geocode_: Extrapolate coordinates and districts from addresses\
 _Visualize_: Generate a geospatial heatmap with a time dimension\
 _Analyze_: 
 Layer with other data points:
--311 calls
--Homeless Population
--Redlining
--Demographics
--Building codes
+- 311 calls
+- Homeless Population
+- Redlining
+- Demographics
+- Building codes
 
 ![alt text](/visualizations/kepler_screenshot.png "Kepler.gl map")
 
