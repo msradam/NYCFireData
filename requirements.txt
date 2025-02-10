@@ -1,3 +1,5 @@
 keplergl 
 jupyter
 flask
+geopy
+pandas
