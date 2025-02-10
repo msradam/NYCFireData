@@ -9,7 +9,7 @@ access_key = <access_key>
 access_secret = <access_secret>
 
 consumer_key = <consumer_key>
-consumer_secret = "<consumer_secret"
+consumer_secret = <consumer_secret>
 
 auth = tweepy.OAuthHandler(consumer_key, consumer_secret)
 auth.set_access_token(access_key, access_secret)
