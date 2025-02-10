@@ -3,4 +3,5 @@ jupyter
 flask
 geopy
 pandas
+geopandas 
 tweepy
