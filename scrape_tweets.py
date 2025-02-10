@@ -4,7 +4,7 @@
 
 import tweepy
 import csv
- 
+
 access_key = <access_key>
 access_secret = <access_secret>
 
@@ -13,7 +13,7 @@ consumer_secret = <consumer_secret>
 
 auth = tweepy.OAuthHandler(consumer_key, consumer_secret)
 auth.set_access_token(access_key, access_secret)
- 
+
 api = tweepy.API(auth)
 
 tweets = api.user_timeline(screen_name="FDNY")
@@ -29,11 +29,11 @@ for tweet in tweets:
     string_to_join.append(retweeted_status)
     string_to_join.append(retweet_count)
     string_to_join.append(favorite_count)
-    
-    tweet_entry = '-'.join(string_to_join)
+
+    tweet_entry = "-".join(string_to_join)
     list_for_csv.append(tweet_entry)
 
 
-with open('csv-data/raw_tweets.csv', 'w+', newline ='') as f: 
+with open("csv-data/raw_tweets.csv", "w+", newline="") as f:
     write = csv.writer(f)
     write.writerows(list_for_csv)

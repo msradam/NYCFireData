@@ -10,7 +10,7 @@ import time
 
 geolocator = Nominatim(user_agent="heattweet_string4", timeout=40)
 
-fdny_df = pd.read_csv("csv-data/fdny_data_contracted.csv")
+fdny_df = pd.read_csv("csv-data/fdny_data_excerpt.csv")
 
 
 def geocode_address(locator, address):
@@ -49,4 +49,4 @@ fdny_df["lat-long"] = fdny_df["street"].apply(
     lambda address: geocode_address(geolocator, address)
 )
 
-fdny_df.to_csv("csv-data/fdny_data_contracted_geo_code.csv")
+fdny_df.to_csv("csv-data/fdny_data_excerpt_geo_code.csv")

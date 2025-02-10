@@ -9,12 +9,14 @@ app = Flask(__name__)
 map_1 = KeplerGl()
 
 
-df = pd.read_csv('csv-data/bbl_lat_long_date.csv')
-map_1.add_data(data=df, name='data_1')
+df = pd.read_csv("csv-data/bbl_lat_long_date.csv")
+map_1.add_data(data=df, name="data_1")
 
-@app.route('/')
+
+@app.route("/")
 def index():
     return map_1._repr_html_()
 
-if __name__ == '__main__':
+
+if __name__ == "__main__":
     app.run(debug=True)
