@@ -16,7 +16,7 @@ auth.set_access_token(access_key, access_secret)
  
 api = tweepy.API(auth)
 
-tweets = api.user_timeline(screen_name="@FDNY")
+tweets = api.user_timeline(screen_name="FDNY")
 
 # Pull in notable data for each Tweet and prepare them for CSV writing
 
